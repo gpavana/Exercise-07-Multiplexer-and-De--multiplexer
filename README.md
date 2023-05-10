@@ -47,6 +47,7 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
  
 ### Procedure
+```
 STEP 1:
 Open the  quartus 2  software give the file name to write the program
 STEP 2:
@@ -60,17 +61,20 @@ STEP 5:
 After completeing program , we have to end program by using endmodule command which is used in verilog.
 STEP 6:
 now we can save and run the porgram.
-
+```
 
 
 ### PROGRAM 
 /*
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: G.PAVANA
 RegisterNumber: 212222230105 
+```
 */
 ### MULTIPLEXER:
 */
+```
 module de (s0,s1,a0,a1,a2,a3,y);
 input s0,s1,a0,a1,a2,a3;
 output y;
@@ -96,7 +100,7 @@ and(y2,s0bar,s1,i);
 and(y1,s1bar,s0,i);
 and(y0,s0bar,s1bar,i);
 endmodule
-
+```
 */
 ### RTL LOGIC :
 ### MULTIPLEXER:
