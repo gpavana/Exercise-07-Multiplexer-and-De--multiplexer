@@ -51,14 +51,14 @@ If the control input changes to AB = 10, then all the gates are restricted excep
 STEP 1:
 Open the  quartus 2  software give the file name to write the program
 STEP 2:
-Declare input and output varibale thorugh module and filename 
+Declare input and output variable throuugh module and filename 
 STEP 3:
 Now,declare input,output and wire variables.
 STEP 4:
-for multiplxer we use 2 not gate,4 and gate and 1 or gate which is output.
+for multiplexer we use 2 not gate,4 and gate and 1 or gate which is output.
 similary, for demultiplexer we use 2 not gate and 4 and gate which is output. 
 STEP 5:
-After completeing program , we have to end program by using endmodule command which is used in verilog.
+After completing program , we have to end program by using endmodule command which is used in verilog.
 STEP 6:
 now we can save and run the porgram.
 ```
