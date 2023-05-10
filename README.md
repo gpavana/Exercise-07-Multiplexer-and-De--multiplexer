@@ -72,9 +72,11 @@ Developed by: G.PAVANA
 RegisterNumber: 212222230105 
 ```
 */
-### MULTIPLEXER:
+
 */
 ```
+### MULTIPLEXER:
+
 module de (s0,s1,a0,a1,a2,a3,y);
 input s0,s1,a0,a1,a2,a3;
 output y;
@@ -89,6 +91,7 @@ or(y,a,b,c,d);
 endmodule
 
 ### DEMULTIPLEXER:
+
 module ff(s0,s1,i,y0,y1,y2,y3);
 input i,s0,s1;
 output y0,y1,y2,y3;
